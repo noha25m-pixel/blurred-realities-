@@ -1,0 +1,13 @@
+ضع ملفات الفيديو (mp4) هنا بنفس الأسماء المكتوبة في config.js
+
+الملفات المطلوبة:
+- news_fake.mp4
+- emotional_fake.mp4
+- entertainment_real.mp4
+- entertainment_fake.mp4
+- celebrity_fake.mp4
+- nature_fake.mp4
+- advertising_real.mp4
+- advertising_fake.mp4
+
+راجع README.md في المجلد الرئيسي لمعرفة كيفية تحميل كل ملف.
