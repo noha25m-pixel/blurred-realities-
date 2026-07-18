@@ -100,7 +100,7 @@ const VIDEO_CONFIG = [
     description: "مقطع حقيقي من يوتيوب",
     type: "youtube",
     youtubeId: "",
-    file: "celebrity_real.mp4",    // من: https://www.youtube.com/shorts/J2Rajefa25U
+    file: "celebrity_real.mp4",    // من: youtube
     groundTruth: "حقيقي",
     hint: "انتبه لسياق البيئة وطبيعية التعبيرات"
   },
