@@ -99,7 +99,7 @@ const VIDEO_CONFIG = [
     title: "شخصية عامة حقيقية",
     description: "مقطع حقيقي من يوتيوب",
     type: "youtube",
-    youtubeId: "hCzwv9RPLkE",
+    youtubeId: "",
     file: "celebrity_real.mp4",    // من: https://www.youtube.com/shorts/J2Rajefa25U
     groundTruth: "حقيقي",
     hint: "انتبه لسياق البيئة وطبيعية التعبيرات"
