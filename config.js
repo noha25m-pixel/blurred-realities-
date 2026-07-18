@@ -99,8 +99,8 @@ const VIDEO_CONFIG = [
     title: "شخصية عامة حقيقية",
     description: "مقطع حقيقي من يوتيوب",
     type: "youtube",
-    youtubeId: "hCzwv9RPLkE",      // https://www.youtube.com/shorts/hCzwv9RPLkE
-    file: "",
+    youtubeId: "hCzwv9RPLkE",      // https://www.youtube.com/shorts/dJyAP5RZ9TU
+    file: "celebrity_real.mp4",
     groundTruth: "حقيقي",
     hint: "انتبه لسياق البيئة وطبيعية التعبيرات"
   },
@@ -112,7 +112,7 @@ const VIDEO_CONFIG = [
     description: "مقطع مولّد بتقنية Kling AI",
     type: "local",
     youtubeId: "",
-    file: "celebrity_fake.mp4",    // من: Kling AI - ronaldo bicycle kick
+    file: "celebrity_fake.mp4",    // من: https://www.youtube.com/shorts/P0qSeE5zj7E?feature=share
     groundTruth: "مولّد بالذكاء الاصطناعي",
     hint: "لاحظ حواف الوجه ونمط الحركة غير الطبيعي"
   },
@@ -167,6 +167,58 @@ const VIDEO_CONFIG = [
     file: "advertising_fake.mp4",  // من: Kling AI - lip gloss splash
     groundTruth: "مولّد بالذكاء الاصطناعي",
     hint: "لاحظ الأشخاص الاصطناعيين والبيئات المثالية بشكل مفرط"
+},
+
+  // ---------------- فئة السياحة ----------------
+ {
+    id: 13,
+    category: "سياحة / محتوى تجاري",
+    categoryClass: "cat-tourism",
+    title: "مقطع سياحي حقيقي",
+    description: "مقطع من يوتيوب — يحتاج تحقق من المصدر",
+    type: "local",
+    youtubeId: "",
+    file: "tourism_real.mp4",  // من: https://www.youtube.com/shorts/Euk2UbehrUo
+    groundTruth: "حقيقي",
+    hint: "لاحظ حقيقة المبنى والشارع"
+  },
+  {
+    id: 14,
+    category: "سياحة / محتوى تجاري",
+    categoryClass: "cat-tourism",
+    title: "مقطع سياحي مولّد بالذكاء الاصطناعي",
+    description: "مقطع مولّد بتقنية Kling AI",
+    type: "local",
+    youtubeId: "",
+    file: "tourism_fake.mp4",  // من: https://kling.ai/app/ai-video/nha-trang-bay-sunrise-coastline/315286865504255
+    groundTruth: "مولّد بالذكاء الاصطناعي",
+    hint: "لاحظ البيئة الاصطناعية والمثالية بشكل مفرط"
+},
+
+  // ---------------- فئة الطبخ ----------------
+ {
+    id: 15,
+    category: "طبخ / محتوى منزلي",
+    categoryClass: "cat-cooking",
+    title: "مقطع طبخ حقيقي",
+    description: "مقطع من فيسبوك — يحتاج تحقق من المصدر",
+    type: "local",
+    youtubeId: "",
+    file: "cook_real.mp4",  // من: https://www.facebook.com/watch/?ref=saved&v=2006830159870524
+    groundTruth: "حقيقي",
+    hint: "لاحظ حقيقة المكونات وطبيعية المشهد"
+  },
+  {
+    id: 16,
+    category: "طبخ / محتوى منزلي",
+    categoryClass: "cat-cooking",
+    title: "مقطع طبخ مولّد بالذكاء الاصطناعي",
+    description: "مقطع مولّد بتقنية Kling AI",
+    type: "local",
+    youtubeId: "",
+    file: "tourism_fake.mp4",  // من: https://kling.ai/app/ai-video/nha-trang-bay-sunrise-coastline/315286865504255
+    groundTruth: "مولّد بالذكاء الاصطناعي",
+    hint: "لاحظ مكونات الطعام والحركة غير الطبيعية"
   }
 
 ];
@@ -178,8 +230,8 @@ const STUDY_CONFIG = {
   studyTitle: "الواقع المُضبَّب",
   studySubtitle: "هل تستطيع التمييز بين الحقيقي والمزيّف؟",
   researcherName: "د. نهى عادل",
-  researcherEmail: "noha.adel@media.menofia.edu.eg",
-  institution: "جامعة المنوفية × جامعة هيرتفوردشاير",
+  researcherEmail: "noha.adel@ecu.edu.eg",
+  institution: "الجامعة المصرية الصينية - جامعة المنوفية",
   orcid: "0000-0003-2245-0793",
   estimatedMinutes: "15-20 دقيقة",
   shuffleVideos: true,          // اجعلها false لو تريد ترتيب ثابت
