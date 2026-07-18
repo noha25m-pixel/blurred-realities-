@@ -98,9 +98,9 @@ const VIDEO_CONFIG = [
     categoryClass: "cat-celeb",
     title: "شخصية عامة حقيقية",
     description: "مقطع حقيقي من يوتيوب",
-    type: "youtube",
-    youtubeId: "",
-    file: "celebrity_real.mp4",    // من: youtube
+    type: "local",
+    youtubeId: "J2Rajefa25U",
+    file: "celebrity_real.mp4",    // من: https://www.youtube.com/shorts/J2Rajefa25U
     groundTruth: "حقيقي",
     hint: "انتبه لسياق البيئة وطبيعية التعبيرات"
   },
