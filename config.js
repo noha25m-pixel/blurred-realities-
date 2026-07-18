@@ -186,13 +186,13 @@ const VIDEO_CONFIG = [
     id: 14,
     category: "سياحة / محتوى تجاري",
     categoryClass: "cat-tourism",
-    title: "مقطع سياحي مولّد بالذكاء الاصطناعي",
-    description: "مقطع مولّد بتقنية Kling AI",
+    title: "مقطع سياحي",
+    description: "",
     type: "local",
     youtubeId: "",
     file: "tourism_fake.mp4",  // من: https://kling.ai/app/ai-video/nha-trang-bay-sunrise-coastline/315286865504255
     groundTruth: "مولّد بالذكاء الاصطناعي",
-    hint: "لاحظ البيئة الاصطناعية والمثالية بشكل مفرط"
+    hint: "لاحظ عناصر الفيديو"
 },
 
   // ---------------- فئة الطبخ ----------------
