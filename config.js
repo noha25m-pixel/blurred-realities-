@@ -18,25 +18,25 @@ const VIDEO_CONFIG = [
     id: 1,
     category: "أخبار / وثائقي",
     categoryClass: "cat-news",
-    title: "تقرير إخباري حقيقي",
-    description: "مقطع إخباري حقيقي من يوتيوب",
+    title: "تقرير إخباري",
+    description: "مقطع إخباري",
     type: "youtube",
     youtubeId: "yBVIZ-GQPb8",     // https://www.youtube.com/shorts/yBVIZ-GQPb8
     file: "",
     groundTruth: "حقيقي",
-    hint: "انتبه لجودة الصورة وطبيعية الحركة وأسلوب التصوير"
+    hint: "لاحظ عناصر الفيديو "
   },
   {
     id: 2,
     category: "أخبار / وثائقي",
     categoryClass: "cat-news",
-    title: "خبر مولّد بالذكاء الاصطناعي",
-    description: "مقطع إخباري مولّد بتقنية Kling AI",
+    title: "خبر",
+    description: "مقطع إخباري",
     type: "local",                 // غيّرها بعد رفع الملف
     youtubeId: "",
     file: "news_fake.mp4",         // ضع هنا اسم الملف بعد تحميله من Kling
     groundTruth: "مولّد بالذكاء الاصطناعي",
-    hint: "لاحظ بشرة الوجه ونمط الحركة والإضاءة"
+    hint: "لاحظ عناصر الفيديو"
   },
 
   // ---------------- فئة المشاعر / القصص الشخصية ----------------
@@ -44,25 +44,25 @@ const VIDEO_CONFIG = [
     id: 3,
     category: "قصة شخصية / مشاعر",
     categoryClass: "cat-human",
-    title: "قصة شخصية حقيقية",
-    description: "مقطع حقيقي من يوتيوب",
+    title: "قصة شخصية",
+    description: "مقطع عن قصة عاطفية",
     type: "youtube",
     youtubeId: "ctvAcd3uLu8",      // https://www.youtube.com/shorts/ctvAcd3uLu8
     file: "",
     groundTruth: "حقيقي",
-    hint: "انتبه للتلقائية والانفعالات الطبيعية"
+    hint: "لاحظ عناصر الفيديو"
   },
   {
     id: 4,
     category: "قصة شخصية / مشاعر",
     categoryClass: "cat-human",
     title: "قصة عاطفية من تيك توك",
-    description: "مقطع تيك توك — يحتاج تحقق من المصدر",
+    description: "مقطع تيك توك",
     type: "local",
     youtubeId: "",
     file: "emotional_fake.mp4",    // ضع هنا اسم الملف بعد تحميله من تيك توك
     groundTruth: "مولّد بالذكاء الاصطناعي",
-    hint: "لاحظ نعومة الجلد وانتظام تعبيرات الوجه"
+    hint: "لاحظ عناصر الفيديو"
   },
 
   // ---------------- فئة الترفيه ----------------
@@ -71,24 +71,24 @@ const VIDEO_CONFIG = [
     category: "ترفيه / فيروسي",
     categoryClass: "cat-entertainment",
     title: "مقطع ترفيهي من تيك توك",
-    description: "مقطع ترفيهي — يحتاج تحقق من المصدر",
+    description: "مقطع ترفيهي ",
     type: "local",
     youtubeId: "",
     file: "entertainment_real.mp4", // من: tiktok.com/@rydabil/video/7632421993236679943
     groundTruth: "حقيقي",
-    hint: "انتبه لعشوائية اللحظة وتفاعل الأشخاص"
+    hint: "لاحظ عناصر الفيديو"
   },
   {
     id: 6,
     category: "ترفيه / فيروسي",
     categoryClass: "cat-entertainment",
     title: "مقطع ترفيهي آخر من تيك توك",
-    description: "مقطع ترفيهي — يحتاج تحقق من المصدر",
+    description: "مقطع ترفيهي",
     type: "local",
     youtubeId: "",
     file: "entertainment_fake.mp4", // من: tiktok.com/@mohamed.kamal139/video/7623489200775499028
     groundTruth: "مولّد بالذكاء الاصطناعي",
-    hint: "لاحظ مدى واقعية الفيزياء والحركة"
+    hint: "لاحظ  عناصر الفيديو"
   },
 
   // ---------------- فئة الشخصيات العامة ----------------
@@ -96,25 +96,25 @@ const VIDEO_CONFIG = [
     id: 7,
     category: "شخصيات عامة",
     categoryClass: "cat-celeb",
-    title: "شخصية عامة حقيقية",
-    description: "مقطع حقيقي من يوتيوب",
+    title: "شخصية عامة",
+    description: "مقطع من يوتيوب",
     type: "local",
     youtubeId: "J2Rajefa25U",
     file: "celebrity_real.mp4",    // من: https://www.youtube.com/shorts/J2Rajefa25U
     groundTruth: "حقيقي",
-    hint: "انتبه لسياق البيئة وطبيعية التعبيرات"
+    hint: "انتبه لعناصر الفيديو"
   },
   {
     id: 8,
     category: "شخصيات عامة",
     categoryClass: "cat-celeb",
-    title: "شخصية عامة مولّدة بالذكاء الاصطناعي",
-    description: "مقطع مولّد بتقنية Kling AI",
+    title: "شخصية عامة",
+    description: "",
     type: "local",
     youtubeId: "",
     file: "celebrity_fake.mp4",    // من: https://www.youtube.com/shorts/P0qSeE5zj7E?feature=share
     groundTruth: "مولّد بالذكاء الاصطناعي",
-    hint: "لاحظ حواف الوجه ونمط الحركة غير الطبيعي"
+    hint: "لاحظ عناصر الفيديو"
   },
 
   // ---------------- فئة الطبيعة ----------------
@@ -122,25 +122,25 @@ const VIDEO_CONFIG = [
     id: 9,
     category: "طبيعة / حياة برية",
     categoryClass: "cat-nature",
-    title: "مشهد طبيعي حقيقي",
-    description: "مقطع حقيقي من يوتيوب",
+    title: "مشهد من الطبيعة",
+    description: "مقطع من يوتيوب",
     type: "youtube",
     youtubeId: "W2HiWTHVum4",      // https://www.youtube.com/shorts/W2HiWTHVum4
     file: "",
     groundTruth: "حقيقي",
-    hint: "انتبه لعشوائية الحركة والتفاصيل البيئية"
+    hint: "لاحظ عناصر الفيديو"
   },
   {
     id: 10,
     category: "طبيعة / حياة برية",
     categoryClass: "cat-nature",
-    title: "مشهد طبيعي مولّد بالذكاء الاصطناعي",
-    description: "مقطع مولّد بتقنية Kling AI",
+    title: "مشهد للطبيعة الساحرة",
+    description: "",
     type: "local",
     youtubeId: "",
     file: "nature_fake.mp4",       // من: Kling AI - waterfall meadow
     groundTruth: "مولّد بالذكاء الاصطناعي",
-    hint: "لاحظ انتظام الإضاءة والظلال والحركة"
+    hint: "لاحظ عناصر الصورة "
   },
 
   // ---------------- فئة الإعلانات ----------------
@@ -148,25 +148,25 @@ const VIDEO_CONFIG = [
     id: 11,
     category: "إعلان / محتوى تجاري",
     categoryClass: "cat-ad",
-    title: "إعلان تجاري حقيقي",
-    description: "مقطع من فيسبوك — يحتاج تحقق من المصدر",
+    title: "إعلان تجاري",
+    description: "مقطع من فيسبوك",
     type: "local",
     youtubeId: "",
     file: "advertising_real.mp4",  // من: facebook.com/reel/861745953659528
     groundTruth: "حقيقي",
-    hint: "انتبه لطبيعية الممثلين وأسلوب الإنتاج"
+    hint: "لاحظ عناصر الفيديو"
   },
   {
     id: 12,
     category: "إعلان / محتوى تجاري",
     categoryClass: "cat-ad",
-    title: "إعلان مولّد بالذكاء الاصطناعي",
-    description: "مقطع مولّد بتقنية Kling AI",
+    title: "إعلان لمحتوى تجاري",
+    description: "",
     type: "local",
     youtubeId: "",
     file: "advertising_fake.mp4",  // من: Kling AI - lip gloss splash
     groundTruth: "مولّد بالذكاء الاصطناعي",
-    hint: "لاحظ الأشخاص الاصطناعيين والبيئات المثالية بشكل مفرط"
+    hint: "لاحظ عناصر الفيديو"
 },
 
   // ---------------- فئة السياحة ----------------
@@ -174,13 +174,13 @@ const VIDEO_CONFIG = [
     id: 13,
     category: "سياحة / محتوى تجاري",
     categoryClass: "cat-tourism",
-    title: "مقطع سياحي حقيقي",
-    description: "مقطع من يوتيوب — يحتاج تحقق من المصدر",
+    title: "مقطع سياحي",
+    description: "مقطع من يوتيوب",
     type: "local",
     youtubeId: "",
     file: "tourism_real.mp4",  // من: https://www.youtube.com/shorts/Euk2UbehrUo
     groundTruth: "حقيقي",
-    hint: "لاحظ حقيقة المبنى والشارع"
+    hint: "لاحظ عناصر الفيديو"
   },
   {
     id: 14,
@@ -200,25 +200,25 @@ const VIDEO_CONFIG = [
     id: 15,
     category: "طبخ / محتوى منزلي",
     categoryClass: "cat-cooking",
-    title: "مقطع طبخ حقيقي",
-    description: "مقطع من فيسبوك — يحتاج تحقق من المصدر",
+    title: "مقطع طبخ",
+    description: "مقطع من فيسبوك",
     type: "local",
     youtubeId: "",
     file: "cook_real.mp4",  // من: https://www.facebook.com/watch/?ref=saved&v=2006830159870524
     groundTruth: "حقيقي",
-    hint: "لاحظ حقيقة المكونات وطبيعية المشهد"
+    hint: "لاحظ عناصر الفيديو"
   },
   {
     id: 16,
     category: "طبخ / محتوى منزلي",
     categoryClass: "cat-cooking",
-    title: "مقطع طبخ مولّد بالذكاء الاصطناعي",
-    description: "مقطع مولّد بتقنية Kling AI",
+    title: "مقطع طبخ",
+    description: "",
     type: "local",
     youtubeId: "",
     file: "cook_fake.mp4",  // من: https://kling.ai/app/ai-video/cooking-before-babe-arrives/310831053616390
     groundTruth: "مولّد بالذكاء الاصطناعي",
-    hint: "لاحظ مكونات الطعام والحركة غير الطبيعية"
+    hint: "لاحظ عناصر الفيديو"
   }
 
 ];
