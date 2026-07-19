@@ -227,7 +227,7 @@ const VIDEO_CONFIG = [
 // إعدادات عامة للتجربة — يمكنك تعديلها أيضاً
 // ============================================================
 const STUDY_CONFIG = {
-  studyTitle: "الواقع المُضبَّب",
+  studyTitle: "الواقع الضبابي",
   studySubtitle: "هل تستطيع التمييز بين الحقيقي والمزيّف؟",
   researcherName: "د. نهى عادل",
   researcherEmail: "noha.adel@ecu.edu.eg",
