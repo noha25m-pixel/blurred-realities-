@@ -1,4 +1,4 @@
-# الواقع المُضبَّب — تجربة بحثية | Blurred Realities Experiment
+# الواقع الضبابي — تجربة بحثية | Blurred Realities Experiment
 
 ## 📁 محتويات المشروع
 
